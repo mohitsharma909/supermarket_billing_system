@@ -52,7 +52,7 @@ void shopping :: menu(){        // (::) denotes scope resolution function.
             cout << "\n\t\t\t Password: ";
             cin >> password;
 
-            if(email == "harcharan@gmail.com" && password == "harcharan"){
+            if(email == "admin" && password == "admin"){
                 administrator();
             }
             else{
